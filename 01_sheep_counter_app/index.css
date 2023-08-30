@@ -1,0 +1,66 @@
+body {
+    background-image: url("sheep.jpg");
+    background-size: cover;
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+h3 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 350px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+    font-size: 50px;
+}
+
+#save-btn {
+    background: darkgreen;
+    font-size: 50px;
+}
+
+#increment-btn:hover{
+    border-bottom: 5px solid aqua;
+    }
+
+#save-btn:hover{
+        border-bottom: 5px solid darkred;
+    }
